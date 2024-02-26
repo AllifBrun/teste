@@ -1,0 +1,48 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.metamorphous-regular {
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+  }
+  
+
+html{
+    font-size: 62.5%;
+}
+
+
+.container-texto{
+    margin: 2px;
+}
+
+
+h1{
+    font-size: 6rem;
+    margin: 2px;
+    
+    
+}
+
+p{
+    font-size: 3rem;
+}
+
+a{
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.logo{
+    display: flex;
+}

@@ -1,0 +1,114 @@
+.menu{
+    z-index: 20;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid lightgray;
+}
+
+.links{
+    padding-left: 40vw;
+}
+
+.input-container {
+    position: relative;
+}
+
+input[type="text"] {
+    padding-left: 30px; /* Adiciona espaço para o ícone */
+    width: 200px; /* Largura do input */
+    height: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 5px; /* Posiciona o ícone no lado esquerdo do input */
+    top: 50%; /* Alinha verticalmente ao meio */
+    transform: translateY(-50%); /* Ajusta a posição vertical */
+    color: #ccc; /* Define a cor do ícone */
+    font-size: 0.1px;
+}
+
+.links ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom:
+}
+.links ul li{
+   
+}
+
+.login{
+    margin-left: 10px;
+}
+
+.menu .logo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: left;
+    
+     
+}
+
+
+body{
+ 
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.distribuidora{
+    color: rgb(2, 99, 2);
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.chimarrao{
+    color: rgb(48, 24, 6);
+    letter-spacing: 0.7rem;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+
+.submenu{
+    background: white;
+    width: 100vw;
+    padding-top: 6.2rem;
+    color: black;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2;
+  
+}
+ 
+.submenu > div{
+    font-family: sans-serif;
+    font-weight: bolder;
+    background: white;
+    color: rgb(48, 24, 6);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.submenu > div:hover{
+    color: rgb(134, 56, 56);
+}
