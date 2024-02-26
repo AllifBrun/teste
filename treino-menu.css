@@ -109,6 +109,30 @@ body{
     font-size: 1.5rem;
 }
 
-.submenu > div:hover{
-    color: rgb(134, 56, 56);
+
+
+
+.link{
+    position: relative;
+    padding-bottom: 3px;
+    transition: ;
+}
+
+.link:hover{
+    color: rgb(128, 45, 45);
+}
+
+.link::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 2;
+    width: 0%;
+    height: 3px;
+    background-color: darkolivegreen;
+    transition: all .8s;
+}
+
+.link:hover::before{
+    width: 87%;
 }
