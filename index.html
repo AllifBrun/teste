@@ -15,7 +15,8 @@
 </head>
 <body>
 
-
+    <input type="checkbox" class="close_menu" id="close_menu">
+    <label for="close_menu" class="close_menu_label"></label>
     <div class="menu">
         <div class="logo metamorphous-regular">
            <div class="distribuidora">DISTRIBUIDORA</div>
@@ -34,19 +35,21 @@
                 <li><a href="#" class="material-symbols-outlined">shopping_cart</a></li>                       
             </ul>
         </div>
-        <div id="menu-icon">&#9776;</div>
+        
     </div>
 
-    <div class="submenu">
-        <div class="link" >CUIAS DE CHIMARRÃO</div>
-        <div class="link">BOMBAS DE CHIMARRÃO</div>
-        <div class="link">TÁBUAS DE CHURRASCO</div>
-        <div class="link">MAIS VENDIDOS</div>
-        <div class="link">NOVIDADES</div>
+    <div class="submenu" onclick="getElementById('close_menu').checked = false;">
+        <div class="link">
+        <a href="#cuias">CUIAS DE CHIMARRÃO</a>
+        </div>
+        <div class="link"><a href="#bombas">BOMBAS DE CHIMARRÃO</a></div>
+        <div class="link"><a href="#tabuas">TÁBUAS DE CHURRASCO</a></div>
+        <div class="link"><a href="">MAIS VENDIDOS</a></div>
+        <div class="link"><a href="">NOVIDADES</a></div>
     </div>
 
     <div class="flex">
-        <div class="slider-container">
+        <div class="slider-container" id="slider">
             <ul class="slider">
                 <li>
                     <input type="radio" id="slide1" name="slide" checked>
@@ -68,8 +71,13 @@
     </div>
 
     <div class="background-div">
-        <div class="cuias">
-            <div class="cuia1">
+
+
+         <!--    CUIAS    -->
+
+        <div class="cuias" id="cuias">
+
+            <div class="cuia1 alinhamento">
                 <div class="borda-produto">
                     <div class="texto-produto">
                         CUIA MADEIRA
@@ -79,7 +87,7 @@
                 </div> 
             </div>
 
-            <div class="cuia2">
+            <div class="cuia2 alinhamento">
                 <div class="borda-produto">
                     <div class="texto-produto">
                         CUIA MADEIRA
@@ -89,7 +97,7 @@
                 </div> 
             </div>
 
-            <div class="cuia3">
+            <div class="cuia3 alinhamento">
                 <div class="borda-produto">
                     <div class="texto-produto">
                         CUIA MADEIRA
@@ -103,8 +111,10 @@
 
 
 
-        <div class="bombas">
-            <div class="bomba1">
+         <!--    BOMBAS    -->
+
+        <div class="bombas" id="bombas">
+            <div class="bomba1 alinhamento">
                 <div class="borda-produto">
                     <div class="texto-produto">
                         BOMBA INOX
@@ -115,7 +125,7 @@
             </div>
 
 
-            <div class="bomba2">
+            <div class="bomba2 alinhamento">
                 <div class="borda-produto">
                     <div class="texto-produto">
                         BOMBA INOX
@@ -126,8 +136,8 @@
             </div>
 
 
-            <div class="bomba3">
-                <div class="borda-produto">
+            <div class="bomba3 alinhamento">
+                <div class="borda-produto alinhamento">
                     <div class="texto-produto">
                         BOMBA INOX
                         <hr>
@@ -144,7 +154,48 @@
 
 
 
-        <div class="tabuaS"></div>
+        <!--    TABUAS    -->
+
+
+       <div class="tabuas" id="tabuas">
+            <div class="tabua1 alinhamento">
+                <div class="borda-produto">
+                    <div class="texto-produto">
+                        TABUA
+                        <hr>
+                        RS: 100,00
+                    </div>
+                </div> 
+            </div>
+
+
+            <div class="tabua2 alinhamento">
+                <div class="borda-produto">
+                    <div class="texto-produto">
+                        TABUA
+                        <hr>
+                        RS: 100,00
+                    </div>
+                </div> 
+            </div>
+
+
+            <div class="tabua3 alinhamento">
+                <div class="borda-produto alinhamento">
+                    <div class="texto-produto">
+                        TABUA
+                        <hr>
+                        RS: 100,00
+                    </div>
+                </div> 
+            </div>
+
+
+
+
+
+        </div>
+
 
 
 
