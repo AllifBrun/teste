@@ -1,8 +1,9 @@
+
 .menu{
     z-index: 20;
     position: fixed;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -116,6 +117,7 @@ body{
     position: relative;
     padding-bottom: 3px;
     transition: ;
+    width: 100%;
 }
 
 .link:hover{
@@ -130,9 +132,100 @@ body{
     width: 0%;
     height: 3px;
     background-color: darkolivegreen;
-    transition: all .8s;
+    transition: all .3s;
 }
 
 .link:hover::before{
     width: 87%;
 }
+
+.close_menu{
+    display: none;
+}
+
+
+@media(max-width: 700px){
+
+.menu{
+    display: none;
+}
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+
+
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+}
+
+.close_menu{
+  position: fixed;
+  z-index: 32;  
+  top: 0;
+  right: 0;
+  
+}
+
+.close_menu_label::after{
+    content: "☰";
+    position: fixed;
+    z-index: 32;  
+    top: 10px;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 150px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+   
+    text-align: center;
+    line-height: 40px;
+    width: 30px;
+    font-family: sans-serif;
+}
+
+input{
+    display: none;
+    
+}
+.close_menu:checked~.submenu{
+    display: block;
+    position: fixed;
+}
+
+.close_menu:checked~.close_menu_label::after{
+   display: block;
+   content: "x";
+}
+
+
+
+.link{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    z-index: 30;
+   height: 0;
+   margin-bottom: 50px;
+   margin-top: 0px;
+ 
+   
+}
+
+.link:hover::before{
+    width: 60%;
+}
+
+
+
+}
+
