@@ -66,6 +66,7 @@ a{
     width: 100vw;
     height: 50vh;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .cuias > div{
@@ -101,13 +102,16 @@ a{
     height: 50vh;
     justify-content: center;
     margin-bottom: 30px;
+    align-items: flex-start;
+ 
 }
 
 
 .bombas > div{
-    margin-top: 35vh;
+    margin-top: 10vh;
     margin-right: 40px;
     margin-left: 40px;
+    margin-bottom: 20vh;
     border-radius: 15px 15px 0px 0px;
     background-size: cover;
     width: 20vw;
@@ -135,7 +139,7 @@ html{
 
 
 .tabuas{
-    margin-top: 190px;
+    margin-top: 1vh;
     display: flex;
     width: 100vw;
     height: 50vh;
@@ -143,7 +147,7 @@ html{
 }
 
 .tabuas > div{
-    margin-top: 35vh;
+    margin-top: 10vh;
     margin-right: 40px;
     margin-left: 40px;
     border-radius: 15px 15px 0px 0px;
@@ -183,16 +187,25 @@ html{
     border-bottom-right-radius: 15px;
 }
 
+
+.sombra_borda{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
 .texto-produto{
-    margin-top: 1vh;
+    margin-top: vh;
     color: black;
-   
+   font-size: 3rem;
+   text-align: left;
 }
 
 
 .texto-produto hr{
-    width: 15vw;
-   margin: 0 auto;
+    width: 20vw;
+  
 }
 
 
@@ -211,7 +224,7 @@ html{
 
 @media(max-width: 700px) {
     .background-div{
-        background-image: url(none)
+        background-image: none;
     }
    .slider{
             width: 100%;
@@ -232,7 +245,7 @@ html{
             margin: 0 auto;
             margin-top: 50px;            
             content: "CUIAS";
-            color: white;           
+            color: black        
             z-index: 40;
             font-size: 50px;
             border-bottom: 3px solid lightgray;
@@ -242,7 +255,7 @@ html{
             margin: 0 auto;
             margin-top: 0px;            
             content: "BOMBAS";
-            color: white;           
+            color:black;           
             z-index: 40;
             font-size: 50px;
             border-bottom: 3px solid lightgray;
@@ -281,14 +294,14 @@ html{
             margin-top: 100px;
             width: 100%;
             height: 500vh; /* Altura desejada */
-            background-image: url(wooden-background.jpg); /* Substitua pelo caminho da sua imagem */
+           ; /* Substitua pelo caminho da sua imagem */
             background-size: cover; /* Para cobrir toda a área da div */
             background-position: center; /* Centraliza a imagem */
             
           }
 
          .bombas > .alinhamento{
-            margin: 100px auto 100px auto;
+            margin: 
             border-radius: 15px 15px 0px 0px;
             width: 60vw;
             height: 40vh;
@@ -300,5 +313,17 @@ html{
 
 
         }
+        .titulo{
+            display: none;
+        }
+    }
 
+
+    .titulo{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .linha{
+        
     }
