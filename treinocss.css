@@ -281,6 +281,11 @@ html {
 
     }
 
+    .texto-produto hr {
+        width: 100%;
+    
+    }
+
     .cuias::before {
         margin: 0 auto;
         margin-top: 50px;
