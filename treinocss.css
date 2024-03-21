@@ -1,4 +1,4 @@
-*{
+* {
     list-style-type: none;
     text-decoration: none;
     margin: 0;
@@ -12,38 +12,38 @@
     font-style: normal;
     font-size: 1.5rem;
     letter-spacing: 10px;
-  }
-  
+}
 
-html{
+
+html {
     font-size: 62.5%;
 }
 
 
-.container-texto{
+.container-texto {
     margin: 2px;
 }
 
 
-h1{
+h1 {
     font-size: 6rem;
     margin: 2px;
-    
-    
+
+
 }
 
-p{
+p {
     font-size: 3rem;
 }
 
-a{
+a {
     color: black;
     font-size: 1.5rem;
     margin-right: 20px;
     margin-left: 10px;
 }
 
-.logo{
+.logo {
     display: flex;
 }
 
@@ -52,93 +52,105 @@ a{
 .background-div {
     margin-top: 100px;
     width: 100%;
-    height: 300vh; /* Altura desejada */
-    background-color: white; /* Substitua pelo caminho da sua imagem */
-    background-size: cover; /* Para cobrir toda a área da div */
-    background-position: center; /* Centraliza a imagem */
-    
-  }
+    height: 300vh;
+    /* Altura desejada */
+    background-color: white;
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    /* Para cobrir toda a área da div */
+    background-position: center;
+    /* Centraliza a imagem */
+
+}
 
 
 
-.cuias{
+.cuias {
     display: flex;
     width: 100vw;
     height: 50vh;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 20   px;
 }
 
-.cuias > div{
-    margin: 30px 40px;
+.cuias>div {
+    margin: 10vh auto 10vh auto;
     border-radius: 15px 15px 0px 0px;
     background-size: cover;
     width: 20vw;
     height: 100%;
     position: relative;
-    
+
 }
 
-.cuia1{
+.cuia1 {
     background-image: url(cui2.jpg);
- 
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 
-.cuia2{
+.cuia2 {
     background-image: url(cuia3.jpg);
-  
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
+
 }
 
-.cuia3{
+.cuia3 {
     background-image: url(cuia4.jpg);
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 
 }
 
 
 
-.bombas{
+.bombas {
     display: flex;
     width: 100vw;
     height: 50vh;
     justify-content: center;
     margin-bottom: 30px;
     align-items: flex-start;
- 
+
 }
 
 
-.bombas > div{
-    margin-top: 10vh;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-bottom: 20vh;
+.bombas>div {
+    margin: 10vh auto 10vh auto;
     border-radius: 15px 15px 0px 0px;
     background-size: cover;
     width: 20vw;
     height: 100%;
     position: relative;
-    
+
 }
 
 
-.bomba1{
+.bomba1 {
     background-image: url(bosnia.jpg);
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 
-.bomba2{
+.bomba2 {
     background-image: url(bosnia.jpg);
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 
-.bomba3{
-    background-image: url(bosnia.jpg);  
+.bomba3 {
+    background-image: url(bosnia.jpg);
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 
-.tabuas{
+.tabuas {
     margin-top: 1vh;
     display: flex;
     width: 100vw;
@@ -146,35 +158,41 @@ html{
     justify-content: center;
 }
 
-.tabuas > div{
+.tabuas>div {
     margin-top: 10vh;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 15px 15px 0px 0px;
     background-size: cover;
     width: 20vw;
     height: 100%;
     position: relative;
-    
+
 }
 
 
-.tabua1{
+.tabua1 {
     background-image: url(arabic.jpg);
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 
-.tabua2{
+.tabua2 {
     background-image: url(arabic.jpg);
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 
-.tabua3{
+.tabua3 {
     background-image: url(arabic.jpg);
+    box-shadow: 4px -10px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 
 
 
-.borda-produto{
+.borda-produto {
     text-align: center;
     font-size: 3rem;
     color: white;
@@ -188,28 +206,41 @@ html{
 }
 
 
-.sombra_borda{
+.sombra_borda {
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
 
 }
 
 
 
-.texto-produto{
+.texto-produto {
     margin-top: vh;
     color: black;
-   font-size: 3rem;
-   text-align: left;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: cinzel;
+    font-weight: 700;
+}
+
+.preco-produto {
+    text-align: unset;
+    margin-top: vh;
+    color: black;
+    font-size: 3rem;
+    text-align: left;
+    font-family: cinzel;
+    font-weight: 500;
 }
 
 
-.texto-produto hr{
+
+.texto-produto hr {
     width: 20vw;
-  
+
 }
 
 
-.bombas > div{
+.bombas>div {
     background-size: cover;
     width: 20vw;
     height: 100%;
@@ -221,109 +252,150 @@ html{
 
 
 
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
 
 @media(max-width: 700px) {
-    .background-div{
+    .background-div {
         background-image: none;
     }
-   .slider{
-            width: 100%;
-            height: 15vh;
-        } 
 
-        .cuias, .bombas{
-            display: flex;
-            flex-direction: column;
-            width: 100vw;
-            height: 210vh;
-            justify-content: start;
-            align-content: center;
-            
-        }
-
-        .cuias::before{
-            margin: 0 auto;
-            margin-top: 50px;            
-            content: "CUIAS";
-            color: black        
-            z-index: 40;
-            font-size: 50px;
-            border-bottom: 3px solid lightgray;
-        }
-
-        .bombas::before{
-            margin: 0 auto;
-            margin-top: 0px;            
-            content: "BOMBAS";
-            color:black;           
-            z-index: 40;
-            font-size: 50px;
-            border-bottom: 3px solid lightgray;
-        }
-
-
-
-        .cuias > .alinhamento{
-            margin: 50px auto 100px auto;
-            border-radius: 15px 15px 0px 0px;
-            width: 60vw;
-            height: 40vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-size: cover;
-            box-sizing: border-box;
-            
-            
-            
-        }
-        .borda-produto{
-            text-align: center;
-            font-size: 3rem;
-            color: white;
-            background-color: rgb(48, 24, 6);
-            position: absolute;
-            bottom: 1;
-            width: 60vw;
-            height: 15vh;
-            border-bottom-left-radius: 15px;
-            border-bottom-right-radius: 15px;
-        }
-
-        .background-div {
-            margin-top: 100px;
-            width: 100%;
-            height: 500vh; /* Altura desejada */
-           ; /* Substitua pelo caminho da sua imagem */
-            background-size: cover; /* Para cobrir toda a área da div */
-            background-position: center; /* Centraliza a imagem */
-            
-          }
-
-         .bombas > .alinhamento{
-            margin: 
-            border-radius: 15px 15px 0px 0px;
-            width: 60vw;
-            height: 40vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-size: cover;
-            box-sizing: border-box;
-
-
-        }
-        .titulo{
-            display: none;
-        }
+    .slider {
+        width: 100%;
+        height: 15vh;
     }
 
+    .cuias,
+    .bombas,
+    .tabuas {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 210vh;
+        justify-content: start;
+        align-content: center;
 
-    .titulo{
-        text-align: center;
+    }
+
+    .cuias::before {
+        margin: 0 auto;
         margin-top: 50px;
+        content: "CUIAS";
+        color: black z-index: 40;
+        font-size: 50px;
+        border-bottom: 3px solid lightgray;
     }
 
-    .linha{
-        
+    .bombas::before {
+        margin: 0 auto;
+        margin-top: 0px;
+        content: "BOMBAS";
+        color: black;
+        z-index: 40;
+        font-size: 50px;
+        border-bottom: 3px solid lightgray;
     }
+
+    .tabuas::before {
+
+        margin: 0 auto;
+        margin-top: 0px;
+        content: "TÁBUAS";
+        color: black;
+        z-index: 40;
+        font-size: 50px;
+        border-bottom: 3px solid lightgray;
+
+    }
+
+    .cuias>.alinhamento {
+        margin: 50px auto 100px auto;
+        border-radius: 15px 15px 0px 0px;
+        width: 60vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        box-sizing: border-box;
+
+
+
+
+    }
+
+    .borda-produto {
+        text-align: center;
+        font-size: 3rem;
+        color: white;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 1;
+        width: 60vw;
+        height: 15vh;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .background-div {
+        margin-top: 100px;
+        width: 100%;
+        height: 500vh;
+        /* Altura desejada */
+        ;
+        /* Substitua pelo caminho da sua imagem */
+        background-size: cover;
+        /* Para cobrir toda a área da div */
+        background-position: center;
+        /* Centraliza a imagem */
+
+    }
+
+    .bombas>.alinhamento {
+        margin: 50px auto 100px auto;
+        border-radius: 15px 15px 0px 0px;
+        width: 60vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        box-sizing: border-box;
+
+
+    }
+
+    .tabuas>.alinhamento {
+        margin: 50px auto 100px auto;
+        border-radius: 15px 15px 0px 0px;
+        width: 60vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        box-sizing: border-box;
+
+
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    .linha {
+        margin-top: 20px;
+    }
+}
+
+
+.titulo {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    color: rgb(48, 24, 6);
+}
